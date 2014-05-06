@@ -1,0 +1,9 @@
+C:\Vinod\Ph\POS408\Class\Week1\Code\Before\Week1\ControlsDemo\bin\Debug\ControlsDemo.exe
+C:\Vinod\Ph\POS408\Class\Week1\Code\Before\Week1\ControlsDemo\bin\Debug\ControlsDemo.pdb
+C:\Vinod\Ph\POS408\Class\Week1\Code\Before\Week1\ControlsDemo\bin\Debug\ControlsDemo.xml
+C:\Vinod\Ph\POS408\Class\Week1\Code\Before\Week1\ControlsDemo\obj\x86\Debug\ControlsDemo.Resources.resources
+C:\Vinod\Ph\POS408\Class\Week1\Code\Before\Week1\ControlsDemo\obj\x86\Debug\ControlsDemo.vbproj.GenerateResource.Cache
+C:\Vinod\Ph\POS408\Class\Week1\Code\Before\Week1\ControlsDemo\obj\x86\Debug\ControlsDemo.exe
+C:\Vinod\Ph\POS408\Class\Week1\Code\Before\Week1\ControlsDemo\obj\x86\Debug\ControlsDemo.xml
+C:\Vinod\Ph\POS408\Class\Week1\Code\Before\Week1\ControlsDemo\obj\x86\Debug\ControlsDemo.pdb
+C:\Vinod\Ph\POS408\Class\Week1\Code\Before\Week1\ControlsDemo\obj\x86\Debug\ControlsDemo.Form1.resources
