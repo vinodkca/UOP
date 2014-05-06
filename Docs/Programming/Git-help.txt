@@ -1,0 +1,23 @@
+--Add new files to repository
+Create a new repository on the command line
+git status
+git add README.md
+git commit -m "first commit
+git push
+
+--Create a new repository on the command line
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/vinodkca/uop.git
+
+
+git push -u origin master
+git status
+git add or git add-A or git add . all the files (use .)
+
+
+---Push an existing repository from the command line
+git remote add origin https://github.com/vinodkca/uop.git
+git push -u origin master
