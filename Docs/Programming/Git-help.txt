@@ -1,7 +1,7 @@
 --Add new files to repository
 Create a new repository on the command line
 git status
-git add README.md
+git add README.md or git add . or git add --all
 git commit -m "first commit
 git push
 
@@ -21,3 +21,7 @@ git add or git add-A or git add . all the files (use .)
 ---Push an existing repository from the command line
 git remote add origin https://github.com/vinodkca/uop.git
 git push -u origin master
+
+--get all the cimmit messages
+git log
+git log | more
