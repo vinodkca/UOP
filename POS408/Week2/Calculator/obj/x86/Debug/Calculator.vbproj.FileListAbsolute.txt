@@ -1,0 +1,9 @@
+C:\Vinod\Phoenix\Teaching\POS408\Class\04302014\Week2\Code\Before\Week2\Calculator\obj\x86\Debug\Calculator.frmCalculator.resources
+C:\Vinod\Phoenix\Teaching\POS408\Class\04302014\Week2\Code\Before\Week2\Calculator\obj\x86\Debug\Calculator.Resources.resources
+C:\Vinod\Phoenix\Teaching\POS408\Class\04302014\Week2\Code\Before\Week2\Calculator\obj\x86\Debug\Calculator.vbproj.GenerateResource.Cache
+C:\Vinod\Phoenix\Teaching\POS408\Class\04302014\Week2\Code\Before\Week2\Calculator\bin\Debug\Calculator.exe
+C:\Vinod\Phoenix\Teaching\POS408\Class\04302014\Week2\Code\Before\Week2\Calculator\bin\Debug\Calculator.pdb
+C:\Vinod\Phoenix\Teaching\POS408\Class\04302014\Week2\Code\Before\Week2\Calculator\bin\Debug\Calculator.xml
+C:\Vinod\Phoenix\Teaching\POS408\Class\04302014\Week2\Code\Before\Week2\Calculator\obj\x86\Debug\Calculator.exe
+C:\Vinod\Phoenix\Teaching\POS408\Class\04302014\Week2\Code\Before\Week2\Calculator\obj\x86\Debug\Calculator.xml
+C:\Vinod\Phoenix\Teaching\POS408\Class\04302014\Week2\Code\Before\Week2\Calculator\obj\x86\Debug\Calculator.pdb
