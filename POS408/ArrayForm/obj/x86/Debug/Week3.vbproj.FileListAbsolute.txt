@@ -1,0 +1,9 @@
+C:\Git\POS408\ArrayForm\bin\Debug\ArrayForm.exe
+C:\Git\POS408\ArrayForm\bin\Debug\ArrayForm.pdb
+C:\Git\POS408\ArrayForm\bin\Debug\ArrayForm.xml
+C:\Git\POS408\ArrayForm\obj\x86\Debug\ArrayForm.Resources.resources
+C:\Git\POS408\ArrayForm\obj\x86\Debug\Week3.vbproj.GenerateResource.Cache
+C:\Git\POS408\ArrayForm\obj\x86\Debug\ArrayForm.exe
+C:\Git\POS408\ArrayForm\obj\x86\Debug\ArrayForm.xml
+C:\Git\POS408\ArrayForm\obj\x86\Debug\ArrayForm.pdb
+C:\Git\POS408\ArrayForm\obj\x86\Debug\ArrayForm.RadioForm.resources
