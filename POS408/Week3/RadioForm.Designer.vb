@@ -23,6 +23,7 @@ Partial Class RadioForm
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.btnClick = New System.Windows.Forms.Button()
+        Me.pnlRadioButton = New System.Windows.Forms.Panel()
         Me.SuspendLayout()
         '
         'btnClick
@@ -34,11 +35,19 @@ Partial Class RadioForm
         Me.btnClick.Text = "Click"
         Me.btnClick.UseVisualStyleBackColor = True
         '
+        'pnlRadioButton
+        '
+        Me.pnlRadioButton.Location = New System.Drawing.Point(160, 42)
+        Me.pnlRadioButton.Name = "pnlRadioButton"
+        Me.pnlRadioButton.Size = New System.Drawing.Size(278, 100)
+        Me.pnlRadioButton.TabIndex = 1
+        '
         'RadioForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 262)
+        Me.ClientSize = New System.Drawing.Size(496, 262)
+        Me.Controls.Add(Me.pnlRadioButton)
         Me.Controls.Add(Me.btnClick)
         Me.Name = "RadioForm"
         Me.Text = "Radio Form"
@@ -46,5 +55,6 @@ Partial Class RadioForm
 
     End Sub
     Friend WithEvents btnClick As System.Windows.Forms.Button
+    Friend WithEvents pnlRadioButton As System.Windows.Forms.Panel
 
 End Class
