@@ -22,6 +22,14 @@ git add or git add-A or git add . all the files (use .)
 git remote add origin https://github.com/vinodkca/uop.git
 git push -u origin master
 
---get all the cimmit messages
+--get all the commit messages
 git log
 git log | more
+
+--git UI
+gitk
+
+--git commit with m will give u a screen and you need to use 
+--:wq to back to the command screen
+
+

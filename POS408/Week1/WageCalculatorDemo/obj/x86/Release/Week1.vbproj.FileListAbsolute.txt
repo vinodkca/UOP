@@ -1,0 +1,11 @@
+C:\Git\UOP\POS408\Week1\WageCalculatorDemo\bin\Release\WageCalculatorDemo.exe
+C:\Git\UOP\POS408\Week1\WageCalculatorDemo\bin\Release\WageCalculatorDemo.pdb
+C:\Git\UOP\POS408\Week1\WageCalculatorDemo\bin\Release\WageCalculatorDemo.xml
+C:\Git\UOP\POS408\Week1\WageCalculatorDemo\obj\x86\Release\WageCalculatorDemo.ControlsDemo.resources
+C:\Git\UOP\POS408\Week1\WageCalculatorDemo\obj\x86\Release\WageCalculatorDemo.MainForm.resources
+C:\Git\UOP\POS408\Week1\WageCalculatorDemo\obj\x86\Release\WageCalculatorDemo.Resources.resources
+C:\Git\UOP\POS408\Week1\WageCalculatorDemo\obj\x86\Release\WageCalculatorDemo.WageForm.resources
+C:\Git\UOP\POS408\Week1\WageCalculatorDemo\obj\x86\Release\Week1.vbproj.GenerateResource.Cache
+C:\Git\UOP\POS408\Week1\WageCalculatorDemo\obj\x86\Release\WageCalculatorDemo.exe
+C:\Git\UOP\POS408\Week1\WageCalculatorDemo\obj\x86\Release\WageCalculatorDemo.xml
+C:\Git\UOP\POS408\Week1\WageCalculatorDemo\obj\x86\Release\WageCalculatorDemo.pdb

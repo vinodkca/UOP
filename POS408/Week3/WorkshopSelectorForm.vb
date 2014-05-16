@@ -53,7 +53,7 @@
             regCost = dblRegistraion(iIndex)
             lodgingCost = intDays(iIndex) * locCost
 
-            lstCost.Items.Add(lodgingCost)
+            lstCost.Items.Add(regCost + lodgingCost)
 
             lstWorkshop.SelectedIndex = -1
             lstLocation.SelectedIndex = -1

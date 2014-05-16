@@ -5,19 +5,19 @@
     <Setting Name="Loc0" Type="System.Double" Scope="User">
       <Value Profile="(Default)">95</Value>
     </Setting>
-    <Setting Name="Loc1" Type="System.String" Scope="User">
+    <Setting Name="Loc1" Type="System.Double" Scope="User">
       <Value Profile="(Default)">125</Value>
     </Setting>
-    <Setting Name="Loc2" Type="System.String" Scope="User">
+    <Setting Name="Loc2" Type="System.Double" Scope="User">
       <Value Profile="(Default)">110</Value>
     </Setting>
-    <Setting Name="Loc3" Type="System.String" Scope="User">
+    <Setting Name="Loc3" Type="System.Double" Scope="User">
       <Value Profile="(Default)">100</Value>
     </Setting>
-    <Setting Name="Loc4" Type="System.String" Scope="User">
+    <Setting Name="Loc4" Type="System.Double" Scope="User">
       <Value Profile="(Default)">92</Value>
     </Setting>
-    <Setting Name="Loc5" Type="System.String" Scope="User">
+    <Setting Name="Loc5" Type="System.Double" Scope="User">
       <Value Profile="(Default)">90</Value>
     </Setting>
   </Settings>
