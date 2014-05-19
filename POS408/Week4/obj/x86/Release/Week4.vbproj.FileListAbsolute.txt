@@ -11,6 +11,5 @@ C:\Git\UOP\POS408\Week4\obj\x86\Release\Week4.FileForm.resources
 C:\Git\UOP\POS408\Week4\bin\Release\Company.mdf
 C:\Git\UOP\POS408\Week4\bin\Release\Company_log.ldf
 C:\Git\UOP\POS408\Week4\bin\Release\Week4.exe.config
-C:\Git\UOP\POS408\Week4\obj\x86\Release\Week4.Form1.resources
 C:\Git\UOP\POS408\Week4\obj\x86\Release\Week4.PageForm.resources
 C:\Git\UOP\POS408\Week4\obj\x86\Release\Week4.StaffForm.resources
