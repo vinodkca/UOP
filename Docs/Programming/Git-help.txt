@@ -35,3 +35,6 @@ gitk
 --give the remote connection url
 git remote -v
 
+--force git to override the local files
+git reset --hard HEAD
+git pull
