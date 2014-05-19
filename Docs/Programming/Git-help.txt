@@ -32,4 +32,6 @@ gitk
 --git commit with m will give u a screen and you need to use 
 --:wq to back to the command screen
 
+--give the remote connection url
+git remote -v
 
