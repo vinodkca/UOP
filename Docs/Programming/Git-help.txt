@@ -38,3 +38,9 @@ git remote -v
 --force git to override the local files
 git reset --hard HEAD
 git pull
+
+
+--Sometimes just clean -f does not help. In case you have untracked DIRECTORIES, -d option also needed:
+git reset --hard HEAD
+git clean -f -d
+git pull
