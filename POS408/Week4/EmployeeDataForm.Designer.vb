@@ -23,6 +23,7 @@ Partial Class frmEmployeeData
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.gbxEmployeeData = New System.Windows.Forms.GroupBox()
+        Me.cbxDept = New System.Windows.Forms.ComboBox()
         Me.txtEmail = New System.Windows.Forms.TextBox()
         Me.txtExt = New System.Windows.Forms.TextBox()
         Me.txtTel = New System.Windows.Forms.TextBox()
@@ -41,7 +42,6 @@ Partial Class frmEmployeeData
         Me.btnSave = New System.Windows.Forms.Button()
         Me.btnClear = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
-        Me.cbxDept = New System.Windows.Forms.ComboBox()
         Me.gbxEmployeeData.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -65,64 +65,75 @@ Partial Class frmEmployeeData
         Me.gbxEmployeeData.Controls.Add(Me.lblFirstName)
         Me.gbxEmployeeData.Location = New System.Drawing.Point(25, 23)
         Me.gbxEmployeeData.Name = "gbxEmployeeData"
-        Me.gbxEmployeeData.Size = New System.Drawing.Size(231, 258)
+        Me.gbxEmployeeData.Size = New System.Drawing.Size(269, 258)
         Me.gbxEmployeeData.TabIndex = 0
         Me.gbxEmployeeData.TabStop = False
         Me.gbxEmployeeData.Text = "Enter Employee Data"
+        '
+        'cbxDept
+        '
+        Me.cbxDept.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cbxDept.FormattingEnabled = True
+        Me.cbxDept.Items.AddRange(New Object() {"Accounting", "Administration", "Marketing", "MIS", "Sales"})
+        Me.cbxDept.Location = New System.Drawing.Point(112, 134)
+        Me.cbxDept.Name = "cbxDept"
+        Me.cbxDept.Size = New System.Drawing.Size(132, 21)
+        Me.cbxDept.Sorted = True
+        Me.cbxDept.TabIndex = 4
         '
         'txtEmail
         '
         Me.txtEmail.Location = New System.Drawing.Point(112, 210)
         Me.txtEmail.Name = "txtEmail"
-        Me.txtEmail.Size = New System.Drawing.Size(100, 20)
-        Me.txtEmail.TabIndex = 14
+        Me.txtEmail.Size = New System.Drawing.Size(132, 20)
+        Me.txtEmail.TabIndex = 7
         '
         'txtExt
         '
         Me.txtExt.Location = New System.Drawing.Point(112, 185)
         Me.txtExt.Name = "txtExt"
-        Me.txtExt.Size = New System.Drawing.Size(100, 20)
-        Me.txtExt.TabIndex = 13
+        Me.txtExt.Size = New System.Drawing.Size(132, 20)
+        Me.txtExt.TabIndex = 6
         '
         'txtTel
         '
         Me.txtTel.Location = New System.Drawing.Point(112, 160)
         Me.txtTel.Name = "txtTel"
-        Me.txtTel.Size = New System.Drawing.Size(100, 20)
-        Me.txtTel.TabIndex = 12
+        Me.txtTel.Size = New System.Drawing.Size(132, 20)
+        Me.txtTel.TabIndex = 5
         '
         'txtEmpNum
         '
         Me.txtEmpNum.Location = New System.Drawing.Point(112, 109)
         Me.txtEmpNum.Name = "txtEmpNum"
-        Me.txtEmpNum.Size = New System.Drawing.Size(100, 20)
-        Me.txtEmpNum.TabIndex = 11
+        Me.txtEmpNum.Size = New System.Drawing.Size(132, 20)
+        Me.txtEmpNum.TabIndex = 3
         '
         'txtLast
         '
         Me.txtLast.Location = New System.Drawing.Point(112, 84)
         Me.txtLast.Name = "txtLast"
-        Me.txtLast.Size = New System.Drawing.Size(100, 20)
-        Me.txtLast.TabIndex = 10
+        Me.txtLast.Size = New System.Drawing.Size(132, 20)
+        Me.txtLast.TabIndex = 2
         '
         'txtMiddle
         '
         Me.txtMiddle.Location = New System.Drawing.Point(112, 59)
         Me.txtMiddle.Name = "txtMiddle"
-        Me.txtMiddle.Size = New System.Drawing.Size(100, 20)
-        Me.txtMiddle.TabIndex = 9
+        Me.txtMiddle.Size = New System.Drawing.Size(132, 20)
+        Me.txtMiddle.TabIndex = 1
         '
         'txtFirst
         '
         Me.txtFirst.Location = New System.Drawing.Point(112, 34)
         Me.txtFirst.Name = "txtFirst"
-        Me.txtFirst.Size = New System.Drawing.Size(100, 20)
-        Me.txtFirst.TabIndex = 8
+        Me.txtFirst.Size = New System.Drawing.Size(132, 20)
+        Me.txtFirst.TabIndex = 0
         '
         'lblEmail
         '
         Me.lblEmail.AutoSize = True
-        Me.lblEmail.Location = New System.Drawing.Point(15, 216)
+        Me.lblEmail.Location = New System.Drawing.Point(27, 216)
         Me.lblEmail.Name = "lblEmail"
         Me.lblEmail.Size = New System.Drawing.Size(79, 13)
         Me.lblEmail.TabIndex = 7
@@ -131,7 +142,7 @@ Partial Class frmEmployeeData
         'lblExt
         '
         Me.lblExt.AutoSize = True
-        Me.lblExt.Location = New System.Drawing.Point(38, 190)
+        Me.lblExt.Location = New System.Drawing.Point(50, 190)
         Me.lblExt.Name = "lblExt"
         Me.lblExt.Size = New System.Drawing.Size(56, 13)
         Me.lblExt.TabIndex = 6
@@ -140,7 +151,7 @@ Partial Class frmEmployeeData
         'lblTel
         '
         Me.lblTel.AutoSize = True
-        Me.lblTel.Location = New System.Drawing.Point(33, 164)
+        Me.lblTel.Location = New System.Drawing.Point(45, 164)
         Me.lblTel.Name = "lblTel"
         Me.lblTel.Size = New System.Drawing.Size(61, 13)
         Me.lblTel.TabIndex = 5
@@ -149,7 +160,7 @@ Partial Class frmEmployeeData
         'lblDepartment
         '
         Me.lblDepartment.AutoSize = True
-        Me.lblDepartment.Location = New System.Drawing.Point(29, 138)
+        Me.lblDepartment.Location = New System.Drawing.Point(41, 138)
         Me.lblDepartment.Name = "lblDepartment"
         Me.lblDepartment.Size = New System.Drawing.Size(65, 13)
         Me.lblDepartment.TabIndex = 4
@@ -158,7 +169,7 @@ Partial Class frmEmployeeData
         'lblEmpNum
         '
         Me.lblEmpNum.AutoSize = True
-        Me.lblEmpNum.Location = New System.Drawing.Point(-2, 112)
+        Me.lblEmpNum.Location = New System.Drawing.Point(10, 112)
         Me.lblEmpNum.Name = "lblEmpNum"
         Me.lblEmpNum.Size = New System.Drawing.Size(96, 13)
         Me.lblEmpNum.TabIndex = 3
@@ -167,7 +178,7 @@ Partial Class frmEmployeeData
         'lblLastName
         '
         Me.lblLastName.AutoSize = True
-        Me.lblLastName.Location = New System.Drawing.Point(33, 86)
+        Me.lblLastName.Location = New System.Drawing.Point(45, 86)
         Me.lblLastName.Name = "lblLastName"
         Me.lblLastName.Size = New System.Drawing.Size(61, 13)
         Me.lblLastName.TabIndex = 2
@@ -176,7 +187,7 @@ Partial Class frmEmployeeData
         'lbMiddleName
         '
         Me.lbMiddleName.AutoSize = True
-        Me.lbMiddleName.Location = New System.Drawing.Point(22, 60)
+        Me.lbMiddleName.Location = New System.Drawing.Point(34, 60)
         Me.lbMiddleName.Name = "lbMiddleName"
         Me.lbMiddleName.Size = New System.Drawing.Size(72, 13)
         Me.lbMiddleName.TabIndex = 1
@@ -185,7 +196,7 @@ Partial Class frmEmployeeData
         'lblFirstName
         '
         Me.lblFirstName.AutoSize = True
-        Me.lblFirstName.Location = New System.Drawing.Point(34, 34)
+        Me.lblFirstName.Location = New System.Drawing.Point(46, 34)
         Me.lblFirstName.Name = "lblFirstName"
         Me.lblFirstName.Size = New System.Drawing.Size(60, 13)
         Me.lblFirstName.TabIndex = 0
@@ -195,45 +206,34 @@ Partial Class frmEmployeeData
         '
         Me.btnSave.Location = New System.Drawing.Point(25, 305)
         Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(94, 23)
+        Me.btnSave.Size = New System.Drawing.Size(80, 34)
         Me.btnSave.TabIndex = 1
         Me.btnSave.Text = "&Save Record"
         Me.btnSave.UseVisualStyleBackColor = True
         '
         'btnClear
         '
-        Me.btnClear.Location = New System.Drawing.Point(162, 305)
+        Me.btnClear.Location = New System.Drawing.Point(122, 305)
         Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(75, 23)
+        Me.btnClear.Size = New System.Drawing.Size(80, 34)
         Me.btnClear.TabIndex = 2
-        Me.btnClear.Text = "C&lear"
+        Me.btnClear.Text = "&Clear"
         Me.btnClear.UseVisualStyleBackColor = True
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(103, 352)
+        Me.btnExit.Location = New System.Drawing.Point(219, 305)
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(75, 23)
-        Me.btnExit.TabIndex = 3
+        Me.btnExit.Size = New System.Drawing.Size(80, 34)
+        Me.btnExit.TabIndex = 0
         Me.btnExit.Text = "E&xit"
         Me.btnExit.UseVisualStyleBackColor = True
-        '
-        'cbxDept
-        '
-        Me.cbxDept.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.cbxDept.FormattingEnabled = True
-        Me.cbxDept.Items.AddRange(New Object() {"Accounting", "Administration", "Marketing", "MIS", "Sales"})
-        Me.cbxDept.Location = New System.Drawing.Point(112, 134)
-        Me.cbxDept.Name = "cbxDept"
-        Me.cbxDept.Size = New System.Drawing.Size(100, 21)
-        Me.cbxDept.Sorted = True
-        Me.cbxDept.TabIndex = 15
         '
         'frmEmployeeData
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 387)
+        Me.ClientSize = New System.Drawing.Size(322, 366)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnSave)

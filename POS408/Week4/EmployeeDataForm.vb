@@ -30,22 +30,39 @@ Public Class frmEmployeeData
     End Sub
 
     Private Sub btnSave_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSave.Click
-        Dim EmpID As Integer = GetRecID()
-        ' Declare an object variable 'File.AppendText("EmployeeData.txt")
-        Dim objWriter As StreamWriter = New StreamWriter("EmployeeData.txt", True)
-        
-        For Each ctl In Me.gbxEmployeeData.Controls
-            If (TypeOf ctl Is TextBox) Then
-                objWriter.WriteLine(ctl.Text)
-            End If
-            If (TypeOf ctl Is ComboBox) Then ' If the Control in the GroupBox is a ComboBox then Set the Text to ""
-                Dim cbx As ComboBox = CType(ctl, ComboBox)
-                objWriter.WriteLine(cbx.SelectedText)
-            End If
-        Next
+        Try
+            Dim strToken As String = ","
+            Dim strSep As String = ":"
+            Dim EmpID As Integer = GetRecID()
+            Dim strEmpID As String = "EmpID" & strSep & EmpID & strToken
+            Dim ctlName As String
+            ' Declare an object variable 'File.AppendText("EmployeeData.txt")
+            Dim objWriter As StreamWriter = New StreamWriter("EmployeeData.txt", True)
 
-        objWriter.Close()
-        SetRecID(EmpID)
+            objWriter.Write(strEmpID)
+
+            For Each ctl In Me.gbxEmployeeData.Controls
+                If (TypeOf ctl Is TextBox) Then
+                    ctlName = SubString(ctl.Name)
+                    ctlName = ctlName & strSep & ctl.Text & strToken
+                    objWriter.Write(ctlName)
+                End If
+                If (TypeOf ctl Is ComboBox) Then ' If the Control in the GroupBox is a ComboBox then Set the Text to ""
+                    Dim cbx As ComboBox = CType(ctl, ComboBox)
+                    ctlName = SubString(cbx.Name)
+                    ctlName = ctlName & strSep & cbx.SelectedItem & strToken
+                    objWriter.Write(ctlName)
+                End If
+            Next
+
+            objWriter.WriteLine()
+            objWriter.Close()
+            SetRecID(EmpID)
+            MessageBox.Show("Successfully saved the record !!!")
+
+        Catch ex As Exception
+            MessageBox.Show("Failed to Save the record")
+        End Try
     End Sub
 
   
@@ -61,15 +78,30 @@ Public Class frmEmployeeData
 
     Private Function GetRecID() As Integer
         Dim RecID As Integer
-        Dim objReader As StreamReader = New StreamReader("RecID.txt") 'File.OpenText("RecID.txt")
-        Dim strContent As String = objReader.ReadLine()
-        If Not strContent Is Nothing Then
-            RecID = CInt(strContent)
-        Else
+        Dim objReader As StreamReader = Nothing
+        Try
+            objReader = New StreamReader("RecID.txt") 'File.OpenText("RecID.txt")
+            Dim strContent As String = objReader.ReadLine()
+            If Not strContent Is Nothing Then
+                RecID = CInt(strContent)
+            Else
+                RecID = 0
+            End If
+        Catch ex As IOException
             RecID = 0
-        End If
-        objReader.Close()
+        Finally
+            If Not (objReader Is Nothing) Then
+                objReader.Close()
+            End If
+        End Try
+
         Return RecID + 1
     End Function
 
+    Public Function SubString(strName As String) As String
+        If Not (strName Is Nothing) And strName.Length > 0 Then
+            Return strName.Substring(3)
+        End If
+        Return String.Empty
+    End Function
 End Class
