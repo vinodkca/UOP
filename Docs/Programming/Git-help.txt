@@ -29,7 +29,6 @@ git push -u origin master
 git status
 git add or git add-A or git add . all the files (use .)
 
-
 ---Push an existing repository from the command line
 git remote add origin https://github.com/vinodkca/uop.git
 git push -u origin master
@@ -51,21 +50,17 @@ git remote -v
 git reset --hard HEAD
 git pull
 
-
 --Sometimes just clean -f does not help. In case you have untracked DIRECTORIES use clean with , -d option also needed:
 git reset --hard HEAD
 git clean -f -d
 git pull
-<<<<<<< HEAD
- 
+
+--Command to display HEAD commit id
+git rev-parse HEAD
+
 --Shows a listing of commits on a branch with messages :wq
 git log
 
 --Generates patch files or statistics of differences between paths or files in your --git repository, or your index or your working directory
 git diff
-=======
 
-
---Command to display HEAD commit id
-git rev-parse HEAD
->>>>>>> 9a5d84b8d145c6d073f741802ff9fad62c60000e
