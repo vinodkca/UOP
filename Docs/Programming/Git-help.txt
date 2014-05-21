@@ -44,3 +44,7 @@ git pull
 git reset --hard HEAD
 git clean -f -d
 git pull
+
+
+--Command to display HEAD commit id
+git rev-parse HEAD
