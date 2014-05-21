@@ -2,7 +2,10 @@
 --http://git-scm.com/book/en/Git-Branching-What-a-Branch-Is
 --http://rogerdudler.github.io/git-guide/
 --http://git-scm.com/book/en/Git-Branching-Rebasing
+
+--Good
 --http://www.siteground.com/tutorials/git/commands.htm
+--http://classic.scottr.org/presentations/git-in-5-minutes/
 
 --Git Cheatsheet
 --http://ndpsoftware.com/git-cheatsheet.html
