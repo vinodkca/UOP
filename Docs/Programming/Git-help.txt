@@ -1,6 +1,11 @@
---Understanding branching in github
+--Help url for git
 --http://git-scm.com/book/en/Git-Branching-What-a-Branch-Is
+--http://rogerdudler.github.io/git-guide/
+--http://git-scm.com/book/en/Git-Branching-Rebasing
+--http://www.siteground.com/tutorials/git/commands.htm
 
+--Git Cheatsheet
+--http://ndpsoftware.com/git-cheatsheet.html
 
 --Add new files to repository
 Create a new repository on the command line
@@ -44,7 +49,13 @@ git reset --hard HEAD
 git pull
 
 
---Sometimes just clean -f does not help. In case you have untracked DIRECTORIES, -d option also needed:
+--Sometimes just clean -f does not help. In case you have untracked DIRECTORIES use clean with , -d option also needed:
 git reset --hard HEAD
 git clean -f -d
 git pull
+ 
+--Shows a listing of commits on a branch with messages :wq
+git log
+
+--Generates patch files or statistics of differences between paths or files in your --git repository, or your index or your working directory
+git diff
