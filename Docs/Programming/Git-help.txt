@@ -56,9 +56,16 @@ git pull
 git reset --hard HEAD
 git clean -f -d
 git pull
+<<<<<<< HEAD
  
 --Shows a listing of commits on a branch with messages :wq
 git log
 
 --Generates patch files or statistics of differences between paths or files in your --git repository, or your index or your working directory
 git diff
+=======
+
+
+--Command to display HEAD commit id
+git rev-parse HEAD
+>>>>>>> 9a5d84b8d145c6d073f741802ff9fad62c60000e
