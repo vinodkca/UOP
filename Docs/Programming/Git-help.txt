@@ -50,7 +50,7 @@ git remote -v
 git reset --hard HEAD
 git pull
 
---Sometimes just clean -f does not help. In case you have untracked DIRECTORIES use clean with , -d option also needed:
+--Sometimes just clean -f does not help. In case you have untracked DIRECTORIES use clean with , -d option also needed: moves the head to origin
 git reset --hard HEAD
 git clean -f -d
 git pull
@@ -63,4 +63,5 @@ git log
 
 --Generates patch files or statistics of differences between paths or files in your --git repository, or your index or your working directory
 git diff
+
 
