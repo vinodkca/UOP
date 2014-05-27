@@ -13,3 +13,4 @@ C:\Git\UOP\POS408\Week4\obj\x86\Debug\Week4.vbproj.GenerateResource.Cache
 C:\Git\UOP\POS408\Week4\obj\x86\Debug\Week4.exe
 C:\Git\UOP\POS408\Week4\obj\x86\Debug\Week4.xml
 C:\Git\UOP\POS408\Week4\obj\x86\Debug\Week4.pdb
+C:\Git\UOP\POS408\Week4\obj\x86\Debug\Week4.frmEmployeeData.resources
