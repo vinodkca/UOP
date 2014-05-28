@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LINQMovies">
+  <DataContextMoniker Name="/LINQMoviesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="2e8c8e87-05e2-4377-ab94-08317fada295" absoluteBounds="3.625, 1.375, 2, 1.3862939453125">
+      <DataClassMoniker Name="/LINQMoviesDataContext/Movie" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b07afb1f-feb7-47b4-9159-e81e26d37b67" absoluteBounds="3.64, 1.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
