@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Employees>
+  <Employee>
+    <EmpId>1</EmpId>
+    <Name>Sam</Name>
+    <Address>
+      <Street>7A Street</Street>
+      <City>Acampo</City>
+      <State>CA</State>
+      <Zip>95220</Zip>
+      <Country>USA</Country>
+    </Address>
+    <Address>
+      <Street>7B Street</Street>
+      <City>Bcampo</City>
+      <State>CA</State>
+      <Zip>93755</Zip>
+      <Country>USA</Country>
+    </Address>
+  </Employee>
+  <Employee>
+    <EmpId>2</EmpId>
+    <Name>Lucy</Name>
+    <Address>
+      <Street>Jess Bay</Street>
+      <City>Alta</City>
+      <State>CA</State>
+      <Zip>95701</Zip>
+      <Country>USA</Country>
+    </Address>
+  </Employee>
+</Employees>

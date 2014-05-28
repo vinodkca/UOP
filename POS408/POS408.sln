@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Basic Express 2010
+# Visual Studio 2010
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Week1", "Week1\WageCalculatorDemo\Week1.vbproj", "{821FAD71-F8C2-471C-B7F6-CC2FD31C1CB6}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Week2", "Week2\Book\Week2.vbproj", "{500F5AC2-61D3-409F-A3CE-18E41DA179C2}"
@@ -8,6 +8,8 @@ EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Week3", "Week3\Week3.vbproj", "{7021CC79-FA50-41E7-8DAB-DF8EB827C3AE}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Week4", "Week4\Week4.vbproj", "{C69E95BD-C001-4835-8D24-CADA1ED26AFF}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Week5", "Week5\Week5.vbproj", "{E7BB897D-5DDB-4E07-A7CD-68945A9F041E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{C69E95BD-C001-4835-8D24-CADA1ED26AFF}.Debug|x86.Build.0 = Debug|x86
 		{C69E95BD-C001-4835-8D24-CADA1ED26AFF}.Release|x86.ActiveCfg = Release|x86
 		{C69E95BD-C001-4835-8D24-CADA1ED26AFF}.Release|x86.Build.0 = Release|x86
+		{E7BB897D-5DDB-4E07-A7CD-68945A9F041E}.Debug|x86.ActiveCfg = Debug|x86
+		{E7BB897D-5DDB-4E07-A7CD-68945A9F041E}.Debug|x86.Build.0 = Debug|x86
+		{E7BB897D-5DDB-4E07-A7CD-68945A9F041E}.Release|x86.ActiveCfg = Release|x86
+		{E7BB897D-5DDB-4E07-A7CD-68945A9F041E}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
