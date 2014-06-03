@@ -10,6 +10,9 @@
 --Git Cheatsheet
 --http://ndpsoftware.com/git-cheatsheet.html
 
+--Git stash
+--http://git-scm.com/docs/git-stash
+
 --Add new files to repository
 Create a new repository on the command line
 git status
