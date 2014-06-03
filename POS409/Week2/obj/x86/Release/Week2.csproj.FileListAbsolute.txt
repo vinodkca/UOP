@@ -1,0 +1,7 @@
+C:\Git\UOP\POS409\Week2\bin\Release\Week2.exe
+C:\Git\UOP\POS409\Week2\bin\Release\Week2.pdb
+C:\Git\UOP\POS409\Week2\obj\x86\Release\Week2.frmTimeZone.resources
+C:\Git\UOP\POS409\Week2\obj\x86\Release\Week2.Properties.Resources.resources
+C:\Git\UOP\POS409\Week2\obj\x86\Release\Week2.csproj.GenerateResource.Cache
+C:\Git\UOP\POS409\Week2\obj\x86\Release\Week2.exe
+C:\Git\UOP\POS409\Week2\obj\x86\Release\Week2.pdb
