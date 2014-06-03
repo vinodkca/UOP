@@ -1,0 +1,11 @@
+C:\Git\UOP\POS409\Week1\obj\x86\Release\Week1.csproj.GenerateResource.Cache
+C:\Git\UOP\POS409\Week1\bin\Release\POS409.exe
+C:\Git\UOP\POS409\Week1\bin\Release\POS409.pdb
+C:\Git\UOP\POS409\Week1\obj\x86\Release\POS409.Properties.Resources.resources
+C:\Git\UOP\POS409\Week1\obj\x86\Release\POS409.exe
+C:\Git\UOP\POS409\Week1\obj\x86\Release\POS409.pdb
+C:\Git\UOP\POS409\Week1\bin\Release\Files\TextFile.txt
+C:\Git\UOP\POS409\Week1\bin\Release\Files\WordFile.docx
+C:\Git\UOP\POS409\Week1\obj\x86\Release\POS409.frmExternalApp.resources
+C:\Git\UOP\POS409\Week1\obj\x86\Release\POS409.frmLogin.resources
+C:\Git\UOP\POS409\Week1\obj\x86\Release\POS409.frmNames.resources
