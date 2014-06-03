@@ -13,6 +13,12 @@
 --Git stash
 --http://git-scm.com/docs/git-stash
 
+--Git pull,fetch,Clone(good)
+--http://blog.mikepearce.net/2010/05/18/the-difference-between-git-pull-git-fetch-and-git-clone-and-git-rebase/
+
+--‘git branch -a’ and it will show you exactly what’s going on with your branches. You can see which are remotes and which are local.* is local
+--Git branch -a
+
 --Add new files to repository
 Create a new repository on the command line
 git status
