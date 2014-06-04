@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.IO;
 
-namespace POS409
+namespace Week1
 {
     class FileInfo
     {

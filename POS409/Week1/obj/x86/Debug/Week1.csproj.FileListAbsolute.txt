@@ -4,6 +4,8 @@ C:\Git\UOP\POS409\Week1\bin\Debug\POS409.pdb
 C:\Git\UOP\POS409\Week1\obj\x86\Debug\POS409.Properties.Resources.resources
 C:\Git\UOP\POS409\Week1\obj\x86\Debug\POS409.exe
 C:\Git\UOP\POS409\Week1\obj\x86\Debug\POS409.pdb
-C:\Git\UOP\POS409\Week1\obj\x86\Debug\POS409.formLogin.resources
-C:\Git\UOP\POS409\Week1\obj\x86\Debug\POS409.formNames.resources
-C:\Git\UOP\POS409\Week1\obj\x86\Debug\Week1.csprojResolveAssemblyReference.cache
+C:\Git\UOP\POS409\Week1\bin\Debug\Files\TextFile.txt
+C:\Git\UOP\POS409\Week1\bin\Debug\Files\WordFile.docx
+C:\Git\UOP\POS409\Week1\obj\x86\Debug\Week1.frmLogin.resources
+C:\Git\UOP\POS409\Week1\obj\x86\Debug\Week1.frmNames.resources
+C:\Git\UOP\POS409\Week1\obj\x86\Debug\Week1.frmExternalApp.resources

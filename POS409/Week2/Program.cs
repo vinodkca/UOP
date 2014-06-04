@@ -15,7 +15,9 @@ namespace Week2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmTimeZone());
+            //Application.Run(new frmTimeZone());
+            //Application.Run(new frmLoops());
+            Application.Run(new frmSwapNumbers());
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace POS409
+﻿namespace Week1
 {
     partial class frmExternalApp
     {

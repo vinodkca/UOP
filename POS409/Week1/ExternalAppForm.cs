@@ -8,8 +8,9 @@ using System.Text;
 using System.Windows.Forms;
 using System.Diagnostics;
 
-namespace POS409
+namespace Week1
 {
+    //Class Activity Week1
     public partial class frmExternalApp : Form
     {
         public frmExternalApp()

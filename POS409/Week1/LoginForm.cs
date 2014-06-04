@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace POS409
+namespace Week1
 {
     public partial class frmLogin : Form
     {

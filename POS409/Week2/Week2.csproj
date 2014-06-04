@@ -44,6 +44,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LoopsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoopsForm.Designer.cs">
+      <DependentUpon>LoopsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SwapNumbersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SwapNumbersForm.Designer.cs">
+      <DependentUpon>SwapNumbersForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="TimeZoneForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -52,6 +64,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="LoopsForm.resx">
+      <DependentUpon>LoopsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SwapNumbersForm.resx">
+      <DependentUpon>SwapNumbersForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TimeZoneForm.resx">
       <DependentUpon>TimeZoneForm.cs</DependentUpon>
     </EmbeddedResource>
