@@ -23,7 +23,22 @@ namespace Week1
             ProcessStartInfo startInfo = new ProcessStartInfo();
             startInfo.FileName = "NOTEPAD.EXE";
             startInfo.Arguments = txtTextFile.Text;
-            Process.Start(startInfo);
+            //Process.Start(startInfo);
+
+            /*If you want to wait till the external app close like modal dialog*/
+            try
+            {
+                // Start the process with the info we specified.
+                // Call WaitForExit and then the using statement will close.
+                using (Process exeProcess = Process.Start(startInfo))
+                {
+                    exeProcess.WaitForExit();
+                }
+            }
+            catch
+            {
+                 //Log error.
+            }
         }
 
         private void btnWord_Click(object sender, EventArgs e)
@@ -54,6 +69,12 @@ namespace Week1
         static void SearchGoogle(string t)
         {
             Process.Start("http://google.com/search?q=" + t);
+
+            //Launch in specific browser
+            //Process.Start("Chrome.exe", "http://www.bing.com/search?q=C%23+examples");
+            //Process.Start("IExplore.exe", "www.microsoft.com");
+            //Process.Start("IExplore.exe", "www.microsoft.com");
+  
         }
 
         private void button1_Click(object sender, EventArgs e)

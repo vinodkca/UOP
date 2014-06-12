@@ -32,7 +32,7 @@
             this.lstB = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnSwap = new System.Windows.Forms.Button();
+            this.btnSwapList = new System.Windows.Forms.Button();
             this.btnSwapNumber = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -82,15 +82,15 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "List B";
             // 
-            // btnSwap
+            // btnSwapList
             // 
-            this.btnSwap.Location = new System.Drawing.Point(111, 88);
-            this.btnSwap.Name = "btnSwap";
-            this.btnSwap.Size = new System.Drawing.Size(94, 23);
-            this.btnSwap.TabIndex = 4;
-            this.btnSwap.Text = "Swap List";
-            this.btnSwap.UseVisualStyleBackColor = true;
-            this.btnSwap.Click += new System.EventHandler(this.btnSwap_Click);
+            this.btnSwapList.Location = new System.Drawing.Point(111, 88);
+            this.btnSwapList.Name = "btnSwapList";
+            this.btnSwapList.Size = new System.Drawing.Size(94, 23);
+            this.btnSwapList.TabIndex = 4;
+            this.btnSwapList.Text = "Swap List";
+            this.btnSwapList.UseVisualStyleBackColor = true;
+            this.btnSwapList.Click += new System.EventHandler(this.btnSwapList_Click);
             // 
             // btnSwapNumber
             // 
@@ -108,7 +108,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(332, 143);
             this.Controls.Add(this.btnSwapNumber);
-            this.Controls.Add(this.btnSwap);
+            this.Controls.Add(this.btnSwapList);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lstB);
@@ -126,7 +126,7 @@
         private System.Windows.Forms.ListBox lstB;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnSwap;
+        private System.Windows.Forms.Button btnSwapList;
         private System.Windows.Forms.Button btnSwapNumber;
     }
 }
