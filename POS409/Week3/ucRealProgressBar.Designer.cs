@@ -29,15 +29,14 @@
         private void InitializeComponent()
         {
             this.gbxReal = new System.Windows.Forms.GroupBox();
-            this.statusStripReal = new System.Windows.Forms.StatusStrip();
-            this.progressBarReal = new System.Windows.Forms.ProgressBar();
             this.label6 = new System.Windows.Forms.Label();
             this.nupdownTimeSec = new System.Windows.Forms.NumericUpDown();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.nupdownReal = new System.Windows.Forms.NumericUpDown();
             this.btnDoReal = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
+            this.statusStripReal = new System.Windows.Forms.StatusStrip();
+            this.progressBarReal = new System.Windows.Forms.ProgressBar();
             this.gbxReal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nupdownTimeSec)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupdownReal)).BeginInit();
@@ -51,28 +50,12 @@
             this.gbxReal.Controls.Add(this.label8);
             this.gbxReal.Controls.Add(this.nupdownReal);
             this.gbxReal.Controls.Add(this.btnDoReal);
-            this.gbxReal.Controls.Add(this.label5);
             this.gbxReal.Location = new System.Drawing.Point(4, 4);
             this.gbxReal.Name = "gbxReal";
             this.gbxReal.Size = new System.Drawing.Size(244, 100);
             this.gbxReal.TabIndex = 0;
             this.gbxReal.TabStop = false;
             this.gbxReal.Text = "Real Progress Bar";
-            // 
-            // statusStripReal
-            // 
-            this.statusStripReal.Location = new System.Drawing.Point(0, 128);
-            this.statusStripReal.Name = "statusStripReal";
-            this.statusStripReal.Size = new System.Drawing.Size(261, 22);
-            this.statusStripReal.TabIndex = 1;
-            this.statusStripReal.Text = "statusStrip1";
-            // 
-            // progressBarReal
-            // 
-            this.progressBarReal.Location = new System.Drawing.Point(10, 128);
-            this.progressBarReal.Name = "progressBarReal";
-            this.progressBarReal.Size = new System.Drawing.Size(237, 21);
-            this.progressBarReal.TabIndex = 2;
             // 
             // label6
             // 
@@ -95,7 +78,7 @@
             this.nupdownTimeSec.Size = new System.Drawing.Size(62, 20);
             this.nupdownTimeSec.TabIndex = 20;
             this.nupdownTimeSec.Value = new decimal(new int[] {
-            100,
+            500,
             0,
             0,
             0});
@@ -140,15 +123,20 @@
             this.btnDoReal.UseVisualStyleBackColor = true;
             this.btnDoReal.Click += new System.EventHandler(this.btnDoReal_Click);
             // 
-            // label5
+            // statusStripReal
             // 
-            this.label5.AutoSize = true;
-            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label5.Location = new System.Drawing.Point(14, 17);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(136, 15);
-            this.label5.TabIndex = 15;
-            this.label5.Text = "In between Code (works!): ";
+            this.statusStripReal.Location = new System.Drawing.Point(0, 128);
+            this.statusStripReal.Name = "statusStripReal";
+            this.statusStripReal.Size = new System.Drawing.Size(261, 22);
+            this.statusStripReal.TabIndex = 1;
+            this.statusStripReal.Text = "statusStrip1";
+            // 
+            // progressBarReal
+            // 
+            this.progressBarReal.Location = new System.Drawing.Point(0, 129);
+            this.progressBarReal.Name = "progressBarReal";
+            this.progressBarReal.Size = new System.Drawing.Size(261, 21);
+            this.progressBarReal.TabIndex = 2;
             // 
             // ucRealProgressBar
             // 
@@ -179,6 +167,5 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.NumericUpDown nupdownReal;
         private System.Windows.Forms.Button btnDoReal;
-        private System.Windows.Forms.Label label5;
     }
 }

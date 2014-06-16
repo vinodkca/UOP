@@ -19,17 +19,13 @@ namespace Week3
         private void btnDoReal_Click(object sender, EventArgs e)
         {
             int totalWork = (int)nupdownReal.Value;
-
-            for (int i = 1; i <= totalWork; i++)
-            {
-                int milliSecondsToWait = (int)nupdownTimeSec.Value;
+            int milliSecondsToWait = (int)nupdownTimeSec.Value;
+            for (int i = 1; i <= totalWork ; i++)
+            {                
                 System.Threading.Thread.Sleep(milliSecondsToWait);
-
                 int progress = i * 100 / totalWork;
                 progressBarReal.Value = progress;
-            }
-
-            progressBarReal.Value = 0;
+            }          
         }
     }
 }

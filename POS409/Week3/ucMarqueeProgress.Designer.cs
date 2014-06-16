@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.gbxMarquee = new System.Windows.Forms.GroupBox();
-            this.lblButton = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnStop = new System.Windows.Forms.Button();
-            this.btnStart = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.nupdwnMarquee = new System.Windows.Forms.NumericUpDown();
             this.label11 = new System.Windows.Forms.Label();
             this.btnProgress = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
+            this.lblButton = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnStop = new System.Windows.Forms.Button();
+            this.btnStart = new System.Windows.Forms.Button();
             this.backgroundWorkerMarquee = new System.ComponentModel.BackgroundWorker();
             this.progressBarMarquee = new System.Windows.Forms.ProgressBar();
             this.statusStripMarquee = new System.Windows.Forms.StatusStrip();
@@ -56,51 +56,12 @@
             this.gbxMarquee.Controls.Add(this.label1);
             this.gbxMarquee.Controls.Add(this.btnStop);
             this.gbxMarquee.Controls.Add(this.btnStart);
-            this.gbxMarquee.Location = new System.Drawing.Point(13, 4);
+            this.gbxMarquee.Location = new System.Drawing.Point(3, 3);
             this.gbxMarquee.Name = "gbxMarquee";
-            this.gbxMarquee.Size = new System.Drawing.Size(228, 206);
+            this.gbxMarquee.Size = new System.Drawing.Size(246, 124);
             this.gbxMarquee.TabIndex = 0;
             this.gbxMarquee.TabStop = false;
             this.gbxMarquee.Text = "Marquee Progress Bar";
-            // 
-            // lblButton
-            // 
-            this.lblButton.AutoSize = true;
-            this.lblButton.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblButton.Location = new System.Drawing.Point(6, 16);
-            this.lblButton.Name = "lblButton";
-            this.lblButton.Size = new System.Drawing.Size(115, 15);
-            this.lblButton.TabIndex = 17;
-            this.lblButton.Text = "Using Buttons (works):";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(52, 37);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(28, 13);
-            this.label1.TabIndex = 16;
-            this.label1.Text = "then";
-            // 
-            // btnStop
-            // 
-            this.btnStop.Location = new System.Drawing.Point(80, 32);
-            this.btnStop.Name = "btnStop";
-            this.btnStop.Size = new System.Drawing.Size(45, 23);
-            this.btnStop.TabIndex = 15;
-            this.btnStop.Text = "Stop";
-            this.btnStop.UseVisualStyleBackColor = true;
-            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
-            // 
-            // btnStart
-            // 
-            this.btnStart.Location = new System.Drawing.Point(9, 32);
-            this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(42, 23);
-            this.btnStart.TabIndex = 14;
-            this.btnStart.Text = "Start";
-            this.btnStart.UseVisualStyleBackColor = true;
-            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // label10
             // 
@@ -152,6 +113,45 @@
             this.label9.TabIndex = 21;
             this.label9.Text = "Using BackGround Worker Process (works):";
             // 
+            // lblButton
+            // 
+            this.lblButton.AutoSize = true;
+            this.lblButton.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblButton.Location = new System.Drawing.Point(0, 16);
+            this.lblButton.Name = "lblButton";
+            this.lblButton.Size = new System.Drawing.Size(115, 15);
+            this.lblButton.TabIndex = 17;
+            this.lblButton.Text = "Using Buttons (works):";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(52, 37);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(28, 13);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "then";
+            // 
+            // btnStop
+            // 
+            this.btnStop.Location = new System.Drawing.Point(80, 32);
+            this.btnStop.Name = "btnStop";
+            this.btnStop.Size = new System.Drawing.Size(45, 23);
+            this.btnStop.TabIndex = 15;
+            this.btnStop.Text = "Stop";
+            this.btnStop.UseVisualStyleBackColor = true;
+            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
+            // 
+            // btnStart
+            // 
+            this.btnStart.Location = new System.Drawing.Point(9, 32);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.Size = new System.Drawing.Size(42, 23);
+            this.btnStart.TabIndex = 14;
+            this.btnStart.Text = "Start";
+            this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
+            // 
             // backgroundWorkerMarquee
             // 
             this.backgroundWorkerMarquee.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorkerMarquee_DoWork);
@@ -159,9 +159,9 @@
             // 
             // progressBarMarquee
             // 
-            this.progressBarMarquee.Location = new System.Drawing.Point(13, 133);
+            this.progressBarMarquee.Location = new System.Drawing.Point(0, 128);
             this.progressBarMarquee.Name = "progressBarMarquee";
-            this.progressBarMarquee.Size = new System.Drawing.Size(162, 16);
+            this.progressBarMarquee.Size = new System.Drawing.Size(252, 21);
             this.progressBarMarquee.TabIndex = 2;
             // 
             // statusStripMarquee
