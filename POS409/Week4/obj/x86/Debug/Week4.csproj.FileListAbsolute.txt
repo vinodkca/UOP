@@ -1,0 +1,12 @@
+C:\Git\UOP\POS409\Week4\obj\x86\Debug\Week4.Properties.Resources.resources
+C:\Git\UOP\POS409\Week4\obj\x86\Debug\Week4.csproj.GenerateResource.Cache
+C:\Git\UOP\POS409\Week4\bin\Debug\Week4.exe
+C:\Git\UOP\POS409\Week4\bin\Debug\Week4.pdb
+C:\Git\UOP\POS409\Week4\obj\x86\Debug\Week4.frmOOPS.resources
+C:\Git\UOP\POS409\Week4\obj\x86\Debug\Week4.exe
+C:\Git\UOP\POS409\Week4\obj\x86\Debug\Week4.pdb
+C:\Git\UOP\POS409\Week4\bin\Debug\PhoneBook.mdf
+C:\Git\UOP\POS409\Week4\bin\Debug\PhoneBook_log.ldf
+C:\Git\UOP\POS409\Week4\bin\Debug\Week4.exe.config
+C:\Git\UOP\POS409\Week4\obj\x86\Debug\Week4.frmPhoneBook.resources
+C:\Git\UOP\POS409\Week4\obj\x86\Debug\Week4.frmDVPhoneBook.resources

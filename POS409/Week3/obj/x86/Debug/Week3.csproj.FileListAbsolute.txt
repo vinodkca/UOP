@@ -11,3 +11,4 @@ C:\Git\UOP\POS409\Week3\bin\Debug\Week3.exe
 C:\Git\UOP\POS409\Week3\bin\Debug\Week3.pdb
 C:\Git\UOP\POS409\Week3\obj\x86\Debug\Week3.exe
 C:\Git\UOP\POS409\Week3\obj\x86\Debug\Week3.pdb
+C:\Git\UOP\POS409\Week3\obj\x86\Debug\Week3.csprojResolveAssemblyReference.cache
