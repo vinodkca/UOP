@@ -1,0 +1,113 @@
+1.Create a project Week5
+2.Add a form frmDisplayAuthors
+3.Add a folder Databases
+4.Right click on folder and add new Item->Service database and name it as Books.mdf
+5.Double click Books.mdf or fo to View->server Explorer or Clik Add new connection ->Microsoft SQL Server Database File (SqlClient) and Browse to C:\Vinod\Ph\POS409\Book\examples\code examples\ch18\ch18\Databases\Books.mdf
+4.Add the tables Authors,Titles,AuthorsISBN
+
+--Database is set up
+
+--Data Bindings Between Controls and the LINQ to SQL Classes
+
+5.Select Data > Add New Data Source… ->object
+
+In the dialog, select Object and click
+Next >. Expand the tree view as shown in Fig. 18.15 and ensure that Author is
+checked.
+
+--LINQ to SQL Classes Generation in Visual Studio 2010
+
+1.Mouse right click on your project in Visual Studio 2010 and choose Add New Item ->Books.dbml
+2. Check LINQ to SQL classes. Visual Studio will generate dbml file for you.
+3. Double click on created Books.dbml file , this will open the Object Relational Designer, then click on Server Explorer and connect to a database
+4. Once connected to a database you can pick any table (Authors,Titles,AuthorsISDN) or stored procedure and just drag and drop it to the Object Relational Designer. This is it! You now actually may start work with your database. 
+
+
+Now if you will look into your DataClasses1.designer.cs file you will see that Visual Studio generated class for the table that you dragged to the designer. You can also extend this class and even add your own properties. To do this click on DataClasses1.dbml, then mouse right click on the graphical representation of generated class and click View Code
+
+
+Once you done it Visual Studio will generate DataClasses1.cs file. You can add there your own properties or methods.
+
+string connectionString = "Data Source=localhost;Initial Catalog=MyDB;Integrated Security=True";
+DataClasses1DataContext _db = new DataClasses1DataContext(connectionString);
+_db.Connection.Open();
+_db.MyTable; //This is our table
+ChangeSet changeset = _db.GetChangeSet(); //This is how we know what changes been made to our table
+_db.SubmitChanges(); //Submitting changes to DB
+_db.Connection.Close();
+
+--Done Creating LINQ to SQL class
+
+--Data Bindings Between Controls and the LINQ to SQL Classes
+1. Adding the AUTHOR LINQ to SQL Class as a Data Source
+
+To use the LINQ to SQL classes for data binding, you must first add them as a data source.
+1. Select Data > Add New Data Source… to display the Data Source Configuration
+Wizard.
+2. The LINQ to SQL classes are used to create objects representing the tables in the
+database, so we’ll use an Object data source. In the dialog, select Object and click
+Next >. Expand the tree view as shown in Fig. 18.15 and ensure that Author is
+checked. An object of this class will be used as the data source.
+3. Click Finish.
+
+2. Creating GUI Elements
+
+a.Switch to Design view for the DisplayAuthorsTable class.
+b. Click the Author node in the Data Sources window—it should change to a dropdown
+list. Open the drop-down by clicking the down arrow and ensure that the
+DATAGRIDVIEW OPTION  is selected—this is the GUI control that will be used to display
+and interact with the data.
+c. Drag the Author node from the Data Sources window onto the Form in Design
+view.
+
+The IDE creates a DataGridView (Fig. 18.17) with the correct column names and a BindingNavigator
+(authorBindingNavigator) that contains Buttons for moving between entries,
+adding entries, deleting entries and saving changes to the database. The IDE also
+generates a BindingSource (authorBindingSource), which handles the transfer of data
+between the data source and the data-bound controls on the Form. Nonvisual components
+such as the BindingSource and the non-visual aspects of the BindingNavigator appear in
+the component tray—the gray region below the Form in Design view.
+
+---Connecting the BooksDataContext to the authorBindingSource
+The final step is to connect the BooksDataContext (created with the LINQ to SQL classes
+in Section 18.5.1) to the authorBindingSource (created earlier in this section), so that the
+application can interact with the database
+
+1.Add the code
+2.Set Enable = true on teh Save button
+2.To persist changes for all executions, select the database in the Solution Explorer and set
+the Copy to Output Directory property in the Properties window to Copy if newer.
+
+
+
+
+SAMPLE 2
+Creating the Display Query Results GUI
+1.Add a Form frmDisplayQuery with title "Display Query Results"
+2.Creating a DataGridView to Display the Titles Table. Add new DataSource title and add DatagridView
+3.add a ComboBox named cmbQueries below the DataGridView on theForm. Users will select which query to execute from this control. 
+4.Set the ComboBox’s Dock property to Bottom and the DataGridView’s Dock property to Fill.
+5.Combobox->Edit Items->String Collection Editor and Add
+
+All titles
+Titles with 2008 copyright
+Titles ending with "How to Program"
+
+--Coding the Display Query Results Application
+1.Add Code Form’s Load Event Handler
+2.Enable Save and add code for it
+
+
+--SAMPLE 3
+
+Creating a Master/Detail View Application
+1.Add a form frmMasterDetail and title "Master/Detail"
+2.Add the controls and click the arrow on combo to add datasource
+3.Add the code
+4.Add selected change events for the controls
+5.Added AuthorBinding with Author
+
+
+
+
+

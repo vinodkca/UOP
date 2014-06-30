@@ -1,0 +1,12 @@
+C:\Git\UOP\POS409\Week5\bin\Debug\Databases\Books.mdf
+C:\Git\UOP\POS409\Week5\bin\Debug\Databases\Books_log.ldf
+C:\Git\UOP\POS409\Week5\bin\Debug\Week5.exe
+C:\Git\UOP\POS409\Week5\bin\Debug\Week5.pdb
+C:\Git\UOP\POS409\Week5\obj\x86\Debug\Week5.Properties.Resources.resources
+C:\Git\UOP\POS409\Week5\obj\x86\Debug\Week5.csproj.GenerateResource.Cache
+C:\Git\UOP\POS409\Week5\obj\x86\Debug\Week5.exe
+C:\Git\UOP\POS409\Week5\obj\x86\Debug\Week5.pdb
+C:\Git\UOP\POS409\Week5\bin\Debug\Week5.exe.config
+C:\Git\UOP\POS409\Week5\obj\x86\Debug\Week5.frmDisplayAuthors.resources
+C:\Git\UOP\POS409\Week5\obj\x86\Debug\Week5.frmDisplayQuery.resources
+C:\Git\UOP\POS409\Week5\obj\x86\Debug\Week5.frmMasterDetail.resources
