@@ -1,3 +1,6 @@
+//http://flyingjxswithjava.blogspot.com/2014/02/copylibs-doesnt-support-excludefromcopy.html
+//excludeFromCopy="${copylibs.excludes}"
+//from build-impl.xml
 package Week44;
 //TestB class is accessible because it’s public. 
 //Only public members of TestB class is accessible because TestC class is not in the same package nor it’s subclass of TestB.
