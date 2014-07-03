@@ -22,6 +22,30 @@ public class LoopControl {
         breakLoop();
         noBreakSwitch();
 
+        
+//        Integer i=new Integer(4); 
+//        Integer y=new Integer(4); 
+//
+//        if( i.equals(y)) //content and value -- Equal
+//        //if( i == y) //look for address --UnEqual
+//        System.out.println(" Both objects(i & y) are equal"); 
+//        else 
+//        System.out.println(" Unequal objects(i & y) "); 
+// 
+//        
+//        String s1 = "TEST";
+//        String s2;
+//        //s2 = s1.concat("TEST");
+//        
+//        //s2 = s1;
+//        s2 = "VINOD";
+//       // if(s1 == s2) //looks for address
+//         if(s1.equals(s2)) //looks for content
+//            System.out.println("Equal add");
+//        else
+//            System.out.println("Un equal");
+//        return;
+
 
 
 
