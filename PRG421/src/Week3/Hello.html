@@ -5,9 +5,14 @@
     <body>
         <h3>My first Java applet says:</h3>
 
-        <object type="application/x-java-applet" width=300 height=300
-                id="testApp"
-                class="Week3.HelloApplet" >
+      
+ <object type="application/x-java-applet" height="300" width="550">
+<!--   <param name="archive" value="C:\Git\UOP\PRG421\dist\PRG421.jar" />-->
+   <param name="code" value="Week3.HelloApplet" />
+   <p>Applet failed to run.  No Java plug-in was found.</p>   
+ 
+   
+ </object>
 <!--<embed id="testapplet"
        type="application/x-java-applet;version=1.6"
        width="256" height="256" 
@@ -17,7 +22,7 @@
        myParam="My Param Value" />
 -->
 
-        </object>
+
     </body>
 </html>
 
@@ -37,4 +42,16 @@ http://stackoverflow.com/questions/14078390/embedding-java-applet-in-html5
 
 https://netbeans.org/kb/docs/web/applets.html
 http://www3.ntu.edu.sg/home/ehchua/programming/java/j4c_appletwebstart.html
--->
+
+1. Put html and jar files in same folder
+2.solution Win7 Control Panel-> java setting security->change to medium
+http://www.youtube.com/watch?v=_mDVFrFjWVw
+<!--       <p>Here it is: <applet archive="PRG421.jar" code="Week3.HelloApplet" height="40" width="200">
+  This is where HelloWorld.class runs.
+</applet></p> -->
+<!--
+ <object type="application/x-java-applet" height="300" width="550">
+   <param name="archive" value="PRG421.jar" />
+   <param name="code" value="Week3.HelloApplet" />
+   <p>Applet failed to run.  No Java plug-in was found.</p>   
+ </object> -->
