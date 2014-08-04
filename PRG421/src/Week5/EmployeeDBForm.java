@@ -3,9 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
 
-Databases and Java Forms:
-http://www.homeandlearn.co.uk/java/delete_a_record_from_a_database.html
+    Databases and Java Forms:
+    http://www.homeandlearn.co.uk/java/delete_a_record_from_a_database.html
 
+    Solution to issues:
+    http://stackoverflow.com/questions/23323397/error-connecting-to-server-localhost-on-port-1527-with-message-connection-timed
+
+    To start server
+    Services->Javav DB->Start and you will also need to go to
+    jdbc:derby://localhost:1527/EmployeeDB [empadmin on Default schema] -> Coonect
+    and username:empadmin password:empadmin
+
+    To add library for JDBC
+    Right click ->Properties->Libraries> Compile->Add library-> Java DB Driver 
  */
 package Week5;
 
@@ -68,11 +78,6 @@ public class EmployeeDBForm extends javax.swing.JFrame {
         jLabel1.setText("Emp ID");
 
         txtID.setText("jTextField1");
-        txtID.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtIDActionPerformed(evt);
-            }
-        });
 
         jLabel2.setText("Emp Name");
 
@@ -245,10 +250,6 @@ public class EmployeeDBForm extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void txtIDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtIDActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtIDActionPerformed
 
     private void btnFirstActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFirstActionPerformed
         getFirstData();
